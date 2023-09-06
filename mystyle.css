@@ -17,18 +17,47 @@ body {
   background-color: #202124;
 }
 
-.max-width, .navBar{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.navBar .logo a {
+  color: aliceblue;
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: 600;
 }
 
-.navBar{
-    font-family: sans-serif;
-    padding: 1.5rem 0;
-    position: absolute;
-    width: 100%;
-    transition: all 0.3s ease;
+.navBar .logo span {
+  color: yellow;
+}
+
+.navBar .menu .li {
+  list-style: none;
+  display: inline-block;
+}
+
+.navBar .menu .li {
+    display: block;
+    margin-left: 1rem;
+}
+
+.max-width {
+  color: aliceblue;
+  max-width: 20rem;
+  padding: 0 6rem;
+}
+
+.max-width,
+.navBar {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navBar {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  padding: 1.5rem 0;
+  position: absolute;
+  width: 100%;
+  transition: all 0.3s ease;
 }
 
 p {
@@ -43,4 +72,10 @@ p {
   flex-wrap: wrap;
   justify-content: space-between;
   background-color: aliceblue;
+}
+
+ul{
+    display: block;
+    list-style-type: disc;
+    
 }
