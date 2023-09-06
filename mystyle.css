@@ -1,0 +1,46 @@
+a {
+  color: black;
+  font-size: 1.5rem;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.acc {
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-left: 5rem;
+  margin-top: 1rem;
+  padding: 0.5rem;
+}
+
+body {
+  background-color: #202124;
+}
+
+.max-width, .navBar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navBar{
+    font-family: sans-serif;
+    padding: 1.5rem 0;
+    position: absolute;
+    width: 100%;
+    transition: all 0.3s ease;
+}
+
+p {
+  display: flex;
+  font-family: sans-serif;
+  margin-left: 2rem;
+}
+
+.topBar {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: aliceblue;
+}
