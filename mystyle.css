@@ -16,6 +16,36 @@ body {
   background-color: #202124;
 }
 
+.home {
+  color: white;
+}
+
+.home .hi {
+  font-family: monospace;
+  font-size: 1.5rem;
+}
+
+.home .name {
+  font-family: cursive;
+  font-size: 2rem;
+}
+
+.home .name span:hover {
+  font-size: 3rem;
+}
+
+.home .name .firstName {
+  color: orange;
+}
+
+.home .name .lastName {
+  color: blueviolet;
+}
+
+.home .name .middleName {
+  color: green;
+}
+
 li {
   float: left;
   margin-left: rem;
@@ -30,11 +60,16 @@ li a {
 }
 
 li a:hover {
-  color: orange;
+  color: green;
 }
 
 .logo {
   margin-right: 1rem;
+}
+
+.material-icons {
+  color: orange;
+  font-size: 1rem;
 }
 
 .max-width {
@@ -49,7 +84,7 @@ li a:hover {
   background-color: black;
   display: block;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-  "Lucida Sans", Arial, sans-serif;
+    "Lucida Sans", Arial, sans-serif;
   margin: 0;
   padding: 1.5rem 0;
   width: 100%;
@@ -64,11 +99,15 @@ li a:hover {
 }
 
 .topBar .logo .fo {
-  color: orange;
+  color: green;
 }
 
-.topBar .logo .lio{
+.topBar .logo .lio {
   color: blueviolet;
+}
+
+.topBar .logo .port {
+  color: orange;
 }
 
 p {
@@ -78,7 +117,7 @@ p {
 }
 
 section {
-  padding: 10rem 0;
+  padding: 5rem 0;
 }
 
 ul {
